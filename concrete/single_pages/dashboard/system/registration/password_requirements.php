@@ -29,7 +29,7 @@ defined('C5_EXECUTE') or die('Access Denied.');
         </div>
         <div class="form-group">
             <label style="font-weight: normal">
-                <?= t('Require at least %s maximum characters', $form->number('max', $max ?: 0,
+                <?= t('Require maximum of %s characters', $form->number('max', $max ?: 0,
                     ["style" => "width:80px; display:inline-block;"])) ?>
             </label>
         </div>
